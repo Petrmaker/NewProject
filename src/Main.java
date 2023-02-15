@@ -24,7 +24,7 @@ public class Main {
             }
         } while (count > 0);
         System.out.println("Массив после сортировки: ");
-        for (int i = 0; i < elems.length; i++) {
+        for(int i = 0; i < elems.length; i++) {
                 System.out.println(count++ + " - й элемент: " + elems[i]);
         }
     }
