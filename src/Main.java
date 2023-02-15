@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        //New Changes
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите количество элементов в массиве: ");
         int[] elems = new int[scanner.nextInt()];
